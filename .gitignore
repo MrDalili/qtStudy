@@ -72,4 +72,4 @@ Thumbs.db
 *.exe
 
 # 编译出来的build文件
-
+build-*
