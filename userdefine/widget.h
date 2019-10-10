@@ -15,6 +15,13 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+    //定时器事件
+    void timerEvent(QTimerEvent *);
+
+    //定时器的ID
+    int id1;
+    int id2;
+    //事件过滤器的事件
 private:
     Ui::Widget *ui;
 };
